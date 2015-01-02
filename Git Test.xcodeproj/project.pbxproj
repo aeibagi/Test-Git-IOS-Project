@@ -14,6 +14,7 @@
 		2919113B1A57271B006C7936 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2919113A1A57271B006C7936 /* Images.xcassets */; };
 		2919113E1A57271B006C7936 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2919113C1A57271B006C7936 /* LaunchScreen.xib */; };
 		2919114A1A57271C006C7936 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 291911491A57271C006C7936 /* Git_TestTests.m */; };
+		291911551A572AE4006C7936 /* TestFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 291911541A572AE4006C7936 /* TestFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		291911431A57271C006C7936 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		291911481A57271C006C7936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		291911491A57271C006C7936 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		291911531A572AE4006C7936 /* TestFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFile.h; sourceTree = "<group>"; };
+		291911541A572AE4006C7936 /* TestFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				291911321A57271B006C7936 /* AppDelegate.m */,
 				291911341A57271B006C7936 /* ViewController.h */,
 				291911351A57271B006C7936 /* ViewController.m */,
+				291911531A572AE4006C7936 /* TestFile.h */,
+				291911541A572AE4006C7936 /* TestFile.m */,
 				291911371A57271B006C7936 /* Main.storyboard */,
 				2919113A1A57271B006C7936 /* Images.xcassets */,
 				2919113C1A57271B006C7936 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				291911361A57271B006C7936 /* ViewController.m in Sources */,
+				291911551A572AE4006C7936 /* TestFile.m in Sources */,
 				291911331A57271B006C7936 /* AppDelegate.m in Sources */,
 				291911301A57271B006C7936 /* main.m in Sources */,
 			);
